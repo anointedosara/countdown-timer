@@ -2,7 +2,8 @@
 body {
     background: white;
     color: black;
-    transition: 1s all ease
+    transition: 1s all ease;
+    padding: 9px;
 }
 
 #end {
@@ -251,17 +252,17 @@ body {
         margin: 0 auto;
     }
     .div3 {
-        margin: 0 48px 0 -15px;
+        margin: 0 47px 0 0px;
         font-size: 12px;
         font-weight: 700;
     }
     .div4 {
-        margin: 0 35px 0 0px;
+        margin: 0 38px 0 0px;
         font-size: 12px;
         font-weight: 700;
     }
     .div5 {
-        margin: 0 30px 0 0px;
+        margin: 0 25px 0 0px;
         font-size: 12px;
         font-weight: 700;
     }
