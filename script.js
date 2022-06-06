@@ -25,12 +25,12 @@ var myfunc = setInterval(function() {
 
     // Display the message when countdown is over
     if (timeleft < 0) {
-        clearInterval(myfunc);
+
         document.getElementById("days").innerHTML = ""
         document.getElementById("hours").innerHTML = ""
         document.getElementById("mins").innerHTML = ""
         document.getElementById("secs").innerHTML = ""
-        document.getElementById("end").innerHTML = "HAPPY BIRTHDAY MILES"
+        document.getElementById("end").innerHTML = "HAPPY BIRTHDAY MILES!!!"
         let end = document.querySelector(".div1");
         end.style.display = "none"
         let ending = document.querySelector(".div2");
@@ -43,12 +43,12 @@ var myfunc = setInterval(function() {
     function random(number) {
         return Math.floor(Math.random() * (number + 1));
     }
-    const rndCol = `rgb(${random(255)}, ${random(255)}, ${random(255)})`;
+    let rndCol = `rgb(${random(255)}, ${random(255)}, ${random(255)})`;
 
     col.style.color = rndCol;
 
 
-}, 1000);
+}, 500);
 
 let btn = document.getElementById("btn");
 
