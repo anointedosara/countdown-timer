@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body {
+    background: white;
+    color: black;
+    transition: 1s all ease
+}
+
+#end {
+    text-align: center;
+    margin-top: 300px;
+    font-size: 50px;
+    font-family: 'Kumbh Sans', sans-serif;
+    text-shadow: 3px 3px 6px black;
+}
+
+#days {
+    margin-right: 30px;
+    font-size: 40px;
+    margin-top: 0px;
+    width: 40px;
+    padding: 17px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#hours {
+    margin-right: 30px;
+    font-size: 40px;
+    margin-top: 0px;
+    width: 40px;
+    padding: 17px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#mins {
+    margin-right: 30px;
+    font-size: 40px;
+    margin-top: 0px;
+    width: 40px;
+    padding: 17px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#secs {
+    margin-right: 30px;
+    font-size: 40px;
+    margin-top: 0px;
+    width: 40px;
+    padding: 17px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.div1 {
+    display: flex;
+    max-width: 1440px;
+    width: 760px;
+    align-items: center;
+    justify-content: center;
+    margin: 300px auto 30px auto;
+}
+
+.div2 {
+    display: flex;
+    width: 410px;
+    margin: 0 auto;
+}
+
+.div2 div {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.bg {
+    background: black;
+    color: white;
+}
+
+.bg #end {
+    text-shadow: 3px 3px 6px rgb(216, 202, 202);
+}
+
+.bg #days {
+    box-shadow: 0 4px 8px 0 rgba(216, 202, 202, 0.2), 0 6px 20px 0 rgba(208, 205, 205, 0.19);
+}
+
+.bg #hours {
+    box-shadow: 0 4px 8px 0 rgba(216, 202, 202, 0.2), 0 6px 20px 0 rgba(208, 205, 205, 0.19);
+}
+
+.bg #mins {
+    box-shadow: 0 4px 8px 0 rgba(216, 202, 202, 0.2), 0 6px 20px 0 rgba(208, 205, 205, 0.19);
+}
+
+.bg #secs {
+    box-shadow: 0 4px 8px 0 rgba(216, 202, 202, 0.2), 0 6px 20px 0 rgba(208, 205, 205, 0.19);
+}
+
+.bg #btn {
+    box-shadow: 0 4px 8px 0 rgba(216, 202, 202, 0.2), 0 6px 20px 0 rgba(208, 205, 205, 0.19);
+    color: white;
+}
+
+#btn {
+    border: none;
+    background: none;
+    padding: 10px;
+    font-size: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.div3 {
+    margin: 0 60px 0 3px;
+    font-weight: 700;
+}
+
+.div4 {
+    margin: 0 47px 0 -2px;
+    font-weight: 700;
+}
+
+.div5 {
+    margin: 0 36px 0 0px;
+    font-weight: 700;
+}
+
+.div6 {
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1023px) {
+    .div1 {
+        display: flex;
+        max-width: 1440px;
+        width: max-content;
+        align-items: center;
+        justify-content: center;
+        margin: 300px auto 30px auto;
+    }
+    #days {
+        margin-right: 30px;
+        font-size: 30px;
+        margin-top: 0px;
+        width: 30px;
+        padding: 17px 20px;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    #hours {
+        margin-right: 30px;
+        font-size: 30px;
+        margin-top: 0px;
+        width: 30px;
+        padding: 17px 20px;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    #mins {
+        margin-right: 30px;
+        font-size: 30px;
+        margin-top: 0px;
+        width: 30px;
+        padding: 17px 20px;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    #secs {
+        margin-right: 30px;
+        font-size: 30px;
+        margin-top: 0px;
+        width: 30px;
+        padding: 17px 20px;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .div2 {
+        display: flex;
+        width: 390px;
+        margin: 0 auto;
+    }
+    .div3 {
+        margin: 0 62px 0 10px;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .div4 {
+        margin: 0 39px 0 -9px;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .div5 {
+        margin: 0 30px 0 0px;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .div6 {
+        font-size: 15px;
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .div1 {
+        display: flex;
+        max-width: 1440px;
+        width: max-content;
+        align-items: center;
+        justify-content: center;
+        margin: 350px auto 30px auto;
+    }
+    #days {
+        margin-right: 30px;
+        font-size: 25px;
+        margin-top: 0px;
+        width: 25px;
+        padding: 13px 15px;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    #hours {
+        margin-right: 30px;
+        font-size: 25px;
+        margin-top: 0px;
+        width: 25px;
+        padding: 13px 15px;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    #mins {
+        margin-right: 30px;
+        font-size: 25px;
+        margin-top: 0px;
+        width: 25px;
+        padding: 13px 15px;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    #secs {
+        margin-right: 30px;
+        font-size: 25px;
+        margin-top: 0px;
+        width: 25px;
+        padding: 13px 15px;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .div2 {
+        display: flex;
+        width: max-content;
+        margin: 0 auto;
+    }
+    .div3 {
+        margin: 0 48px 0 -15px;
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .div4 {
+        margin: 0 35px 0 0px;
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .div5 {
+        margin: 0 30px 0 0px;
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .div6 {
+        font-size: 12px;
+        font-weight: 700;
+    }
+}
