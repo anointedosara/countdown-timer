@@ -252,7 +252,7 @@ body {
         margin: 0 auto;
     }
     .div3 {
-        margin: 0 47px 0 0px;
+        margin: 0 47px 0 -4px;
         font-size: 12px;
         font-weight: 700;
     }
