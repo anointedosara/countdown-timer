@@ -3,7 +3,8 @@ body {
     background: white;
     color: black;
     transition: 1s all ease;
-    padding: 9px;
+    padding: 17px;
+    height: 90vh;
 }
 
 #end {
@@ -205,10 +206,11 @@ body {
     .div1 {
         display: flex;
         max-width: 1440px;
-        width: max-content;
+        width: 100%;
         align-items: center;
         justify-content: center;
-        margin: 350px auto 30px auto;
+        margin: 250px auto 30px auto;
+        padding-left: 15px
     }
     #days {
         margin-right: 30px;
@@ -252,17 +254,17 @@ body {
         margin: 0 auto;
     }
     .div3 {
-        margin: 0 47px 0 -4px;
+        margin: 0 48px 0 9px;
         font-size: 12px;
         font-weight: 700;
     }
     .div4 {
-        margin: 0 38px 0 0px;
+        margin: 0 37px 0 0px;
         font-size: 12px;
         font-weight: 700;
     }
     .div5 {
-        margin: 0 25px 0 0px;
+        margin: 0 27px 0 0px;
         font-size: 12px;
         font-weight: 700;
     }
