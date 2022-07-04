@@ -1,5 +1,5 @@
 // The data/time we want to countdown to
-var countDownDate = new Date("Jun 20, 2022 00:00:00").getTime();
+var countDownDate = new Date("Aug 25, 2022 00:00:00").getTime();
 
 // Run myfunc every second
 var myfunc = setInterval(function() {
@@ -30,7 +30,7 @@ var myfunc = setInterval(function() {
         document.getElementById("hours").innerHTML = ""
         document.getElementById("mins").innerHTML = ""
         document.getElementById("secs").innerHTML = ""
-        document.getElementById("end").innerHTML = "HAPPY BIRTHDAY MILES!!!"
+        document.getElementById("end").innerHTML = "THIS IS THE END!"
         let end = document.querySelector(".div1");
         end.style.display = "none"
         let ending = document.querySelector(".div2");
